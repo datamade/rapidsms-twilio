@@ -41,7 +41,7 @@ setup(
     install_requires=(
         'rapidsms>=0.18',
         'django>=1.7',
-        'twilio>=3.5,<=6.16.2',
+        'twilio>=6.0.0,<=6.16.2',
     ),
     test_suite="runtests.runtests",
 )
